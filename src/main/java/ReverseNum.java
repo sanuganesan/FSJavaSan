@@ -1,11 +1,11 @@
 public class ReverseNum {
 
 
-    static int reminder = 0;
-    static int reverse = 0;
+     int reminder = 0;
+     int reverse = 0;
 
 
-    public static void reverseNum(int n) {
+    public  void reverseNum(int n) {
 
         for (int i = n; i != 0; i = i / 10) {
             reminder = i % 10;
@@ -17,7 +17,8 @@ public class ReverseNum {
     }
 
     public static void main(String[] args) {
-        reverseNum(-12356);
+        ReverseNum r1 = new ReverseNum();
+        r1.reverseNum(-23569);
     }
 
 }
